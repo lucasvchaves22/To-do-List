@@ -7,11 +7,11 @@ $(document).ready(function () {
         $task.find('.edit-task').removeClass('hidden');
     });
 
-    $('progress').on('click', function (){
+    $('.progress').on('click', function (){
         if ($(this).is(':checked')) {
             $(this).addClass('done');
         } else {
-            $(this).addClass('done');
+            $(this).removeClass('done');
         }
     });
 });
