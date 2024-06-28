@@ -22,7 +22,7 @@ if ($sql->rowCount() > 0) {
     <div id="to_do">
         <h1>Things To Do</h1>
 
-        <form action="" class="to-do-form">
+        <form action="actions/create.php" method="POST" class="to-do-form">
             <input type="text" name="description" placeholder="Write your task here" required>
             <button type="submit" class="form-button">
                 <i class="fa-solid fa-plus"></i>
