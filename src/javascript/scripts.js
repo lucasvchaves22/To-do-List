@@ -30,9 +30,9 @@ $(document).ready(function () {
                     alert('Erro ao editar a tarefa');
                 }
             },
-           /*error: function () {
+           error: function () {
                 alert('Ocorreu um erro');
-            }*/
+            }
         });
     })
 });

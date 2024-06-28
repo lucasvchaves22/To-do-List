@@ -11,9 +11,9 @@ if ($id && $completed) {
     $sql->bindValue(':id', $id);
     $sql->execute();
 
-    echo jason_encode(['success' => true]);
+    echo json_encode(['success' => true]);
     exit;
 } else {
-    echo jason_encode(['success' => false]);
+    echo json_encode(['success' => false]);
     exit;
 }
